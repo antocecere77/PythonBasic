@@ -15,6 +15,8 @@ print(datetime.datetime.now())
 
 from time import time
 from math import pow as power
+import numpy as np
+
 print(time())
 
 n = 2
@@ -24,6 +26,8 @@ n_pow = 20
 tick = time()
 
 power(n, n_pow)
+
+n_pow = np.power(n, n_pow)
 
 for _ in range(pow):
     n_pow=n
